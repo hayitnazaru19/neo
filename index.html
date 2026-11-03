@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEONX — Beyond Reality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">NEON<span>X</span></a>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#products">Продукты</a>
+        <a href="#technology">Технологии</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <button class="nav-button" onclick="showMessage()">Связаться ↗</button>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="tag">● TECHNOLOGY OF TOMORROW</div>
+
+        <h1>BEYOND<br><span>REALITY.</span></h1>
+
+        <p>
+            Мы создаём технологии, которые меняют представление
+            о будущем. Дизайн, инновации и мощность в одном пространстве.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#products" class="primary-btn">Исследовать ↗</a>
+            <a href="#technology" class="secondary-btn">Наши технологии</a>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85"
+             alt="Технологии">
+    </div>
+</section>
+
+<section class="stats">
+    <div>
+        <h2>01</h2>
+        <p>Новая эра технологий</p>
+    </div>
+
+    <div>
+        <h2>∞</h2>
+        <p>Безграничные возможности</p>
+    </div>
+
+    <div>
+        <h2>100%</h2>
+        <p>Фокус на инновациях</p>
+    </div>
+</section>
+
+<section class="products-section" id="products">
+    <p class="section-label">OUR COLLECTION</p>
+    <h2 class="section-title">Технологии.<br>Без компромиссов.</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80"
+                     alt="Smartphone">
+            </div>
+            <h3>NEON Phone</h3>
+            <p>Смартфон с технологиями нового поколения.</p>
+            <div class="product-bottom">
+                <span>NEW GENERATION</span>
+                <button onclick="productInfo('NEON Phone')">↗</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80"
+                     alt="Headphones">
+            </div>
+            <h3>NEON Audio</h3>
+            <p>Чистый звук и премиальный дизайн.</p>
+            <div class="product-bottom">
+                <span>PREMIUM SOUND</span>
+                <button onclick="productInfo('NEON Audio')">↗</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+                     alt="Smart Watch">
+            </div>
+            <h3>NEON Watch</h3>
+            <p>Умные часы для активной жизни.</p>
+            <div class="product-bottom">
+                <span>SMART LIFE</span>
+                <button onclick="productInfo('NEON Watch')">↗</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="feature" id="technology">
+    <div class="feature-image">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+             alt="Technology">
+    </div>
+
+    <div class="feature-content">
+        <p class="section-label">OUR PHILOSOPHY</p>
+        <h2>Будущее<br>начинается сейчас.</h2>
+
+        <p>
+            NEONX — концептуальный технологический бренд.
+            Мы верим, что технологии должны быть красивыми,
+            удобными и доступными.
+        </p>
+
+        <div class="feature-list">
+            <div>✦ Уникальный дизайн</div>
+            <div>✦ Инновационные решения</div>
+            <div>✦ Современная эстетика</div>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contact">
+    <p class="section-label">JOIN THE FUTURE</p>
+
+    <h2>READY FOR<br><span>WHAT'S NEXT?</span></h2>
+
+    <p>Будь частью нового поколения.</p>
+
+    <button class="primary-btn" onclick="showMessage()">
+        Связаться с нами ↗
+    </button>
+</section>
+
+<footer>
+    <a href="#home" class="logo">NEON<span>X</span></a>
+    <p>© 2026 NEONX — Concept Technology Brand</p>
+    <p>DESIGNED FOR THE FUTURE.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
